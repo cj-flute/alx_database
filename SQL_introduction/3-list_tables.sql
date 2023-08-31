@@ -1,5 +1,9 @@
 -- A script that list all the tables of a database in your MySQL server
 
-USE mysql IF EXISTS;
+IMPORT sys 
+
+datab = sys.agvr[1] 
+
+USE datab IF EXISTS;
 
 SHOW TABLES;
