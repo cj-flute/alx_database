@@ -8,4 +8,4 @@
 
 -- );
 
-SHOW CREATE TABLE fisrt_table( id INT, name VARCHAR(256) );
+CREATE TABLE fisrt_table( id INT, name VARCHAR(256) );
