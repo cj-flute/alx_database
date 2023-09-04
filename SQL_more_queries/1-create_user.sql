@@ -4,6 +4,6 @@ CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost';
 
 GRANT ALL ON *.* TO 'user_0d_1'@'localhost';
 
-SET PASSWORD FOR 'USER_0d_1'@'localhost' = PASSWORD('1111');
+ALTER USER 'user_0d_1'@'localhost' IDENTIFIED BY '1111';
 
 FLUSH PRIVILEGES;
