@@ -2,4 +2,4 @@
 
 CREATE USER IF NOT EXISTS 'user_01'@'localhost';
 
-GRANT ALL PRIVILEGES 
+GRANT ALL ON *.* TO 'user_01'@'localhost';
