@@ -3,7 +3,7 @@
 
 INSERT IGNORE INTO states (name) VALUES ('California');
 
-SELECT cities.name
+SELECT cities.id, cities.name
 FROM cities
 WHERE cities.state_id = (
         SELECT id
