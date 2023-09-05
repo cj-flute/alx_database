@@ -3,18 +3,6 @@
 
 INSERT INTO states (id, name) VALUES (1, 'Califonia');
 
--- CREATE TABLE
-
---     IF NOT EXISTS cities(
-
---         id INT AUTO_INCREMENT,
-
---         state_id INT states.id FOREIGN KEY,
-
---         name VARCHAR(256) NOT NULL
-
---     );
-
 SELECT cities.name
 FROM cities
 WHERE cities.state_id = (
